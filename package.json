@@ -1,0 +1,37 @@
+{
+  "name": "faq-vuepress",
+  "version": "1.0.0",
+  "description": "A sample project to let you see what makes VuePress so great! ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "serve": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borgestj/faq-vuepress.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vuepress",
+    "documentation",
+    "static-site-gen"
+  ],
+  "author": "Robert5o Borges <borges.tj@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/borgestj/faq-vuepress/issues"
+  },
+  "homepage": "https://github.com/borgestj/faq-vuepress#readme",
+  "dependencies": {
+    "global": "^4.3.2",
+    "vue-styled-components": "^1.4.14",
+    "vuepress": "^1.2.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.0.0-rc.1",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2"
+  }
+}
