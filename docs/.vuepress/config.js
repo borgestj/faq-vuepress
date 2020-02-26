@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Documentação Uatt?',
-  description: false,
+  description: 'Bem vindo a página de Documentação!!!',
   themeConfig: {
     logo: '/logo-uatt.svg',
     // lastUpdated: 'Last updated',
@@ -14,14 +14,14 @@ module.exports = {
         link: '/'
       },
       {
-        text: 'Documentação',
+        text: 'Documentação Dev',
         items: [
           {
             text: 'Iniciando o Projeto',
             items: [
               {
                 text: 'Projeto',
-                link: '/section/iniciandoProjeto.md'
+                link: '/section-dev/iniciandoProjeto.md'
               }
             ]
           },
@@ -31,7 +31,7 @@ module.exports = {
             items: [
               {
                 text: 'Estrutura do Projeto',
-                link: '/section/estruturaSite.md'
+                link: '/section-dev/estruturaSite.md'
               }
             ], 
           },
@@ -40,9 +40,17 @@ module.exports = {
             text: 'Paginas',
             items: [
               {
-                text: 'Criando uma Página',
-                link: '/section/paginas.md'
-              }
+                text: 'Criando uma nova página',
+                link: '/section-dev/paginas.md'
+              },
+              {
+                text: 'Alterando estrutura estática das páginas',
+                link: '/section-dev/paginas.md#home-vue'
+              },
+              {
+                text: 'Helpdesk.vue',
+                link: '/section-dev/paginas.md#Helpdesk-vue'
+              },
             ]
           },
 

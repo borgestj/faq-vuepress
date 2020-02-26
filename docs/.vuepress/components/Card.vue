@@ -7,7 +7,7 @@
                     <h2>Usuário</h2>
                 </div>
                 <div class="columns-3">
-                    <a href="#">Ir para a documentação</a>
+                    <a href="/section-user/initial.html">Ir para a documentação</a>
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
                     <h2>Administrador</h2>
                 </div>
                 <div class="columns-3">
-                    <a href="#">Ir para a documentação</a>
+                    <a href="/section-admin/initial.html">Ir para a documentação</a>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
                     <h2>Desenvolvedor</h2>
                 </div>
                 <div class="columns-3">
-                    <a href="/section/iniciandoProjeto.html">Ir para a documentação</a>
+                    <a href="/section-dev/iniciandoProjeto.html">Ir para a documentação</a>
                 </div>
             </div>
         </div>
