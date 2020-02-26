@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Documentação Uatt?',
-  description: 'Documentação do site B2C.',
+  description: false,
   themeConfig: {
     logo: '/logo-uatt.svg',
     // lastUpdated: 'Last updated',
@@ -14,36 +14,44 @@ module.exports = {
         link: '/'
       },
       {
-        text: 'Basic Page',
-        link: '/basic/'
-      },
-      {
-        text: 'Section',
+        text: 'Documentação',
         items: [
           {
-            text: 'Padrões do Projeto',
-            link: '/section/#iniciando-o-projeto'
+            text: 'Iniciando o Projeto',
+            items: [
+              {
+                text: 'Projeto',
+                link: '/section/iniciandoProjeto.md'
+              }
+            ]
           },
+          
           {
-            text: 'Projeto',
-            link: '/section/#executando-o-projeto'
+            text: 'Estrutura',
+            items: [
+              {
+                text: 'Estrutura do Projeto',
+                link: '/section/estruturaSite.md'
+              }
+            ], 
           },
-        ]
-      },
-      {
-        text: 'Section2',
-        items: [
+
           {
-            text: 'Projeto',
-            link: '/section2/#criando-uma-nova-pagina'
-          }
+            text: 'Paginas',
+            items: [
+              {
+                text: 'Criando uma Página',
+                link: '/section/paginas.md'
+              }
+            ]
+          },
+
         ]
-      },
-      {
-        text: 'Componente Teste',
-        link: '/component-example'
       }
     ],
-    plugins: ['@vuepress/active-header-links']
+    plugins: [
+      ['@vuepress/active-header-links'],
+      ['@vuepress/back-to-top', true]
+    ]
   }
 }

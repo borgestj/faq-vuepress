@@ -1,4 +1,10 @@
-# Criando uma nova página
+---
+sidebar: auto
+---
+
+# Páginas
+
+## Criando uma nova página
 
 + Criando nossa página:
     * Criamos uma nova página em **web/src/pages**.   
@@ -29,6 +35,3 @@ Ex:
 ```
 { path: "/NOMEDAPAGINA", component: () => import("./pages/NOMEDAPAGINA.vue") }
 ```
-
-<Counter />
-<Counter />

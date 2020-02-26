@@ -7,7 +7,7 @@
                     <h2>Usuário</h2>
                 </div>
                 <div class="columns-3">
-                    <a href="http://google.com" target="_blank" rel="noopener noreferrer">Google</a>
+                    <a href="#">Ir para a documentação</a>
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
                     <h2>Administrador</h2>
                 </div>
                 <div class="columns-3">
-                    <a href="http://google.com" target="_blank" rel="noopener noreferrer">Google</a>
+                    <a href="#">Ir para a documentação</a>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
                     <h2>Desenvolvedor</h2>
                 </div>
                 <div class="columns-3">
-                    <a href="http://google.com" target="_blank" rel="noopener noreferrer">Google</a>
+                    <a href="/section/iniciandoProjeto.html">Ir para a documentação</a>
                 </div>
             </div>
         </div>
@@ -59,6 +59,7 @@ export default {
 
     .container .columns-2 {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
 
@@ -79,6 +80,10 @@ export default {
 
         .cards {
             display: block;
+        }
+
+        .card {
+            margin: 10px auto;
         }
     }
 </style>

@@ -1,7 +1,4 @@
----
-sidebar: auto
----
-# Padrões de documentação2
+# Padrões de documentação
 
 Foram definidos alguns padrões para que a documentação possa evoluir colaborativamente.
 
@@ -25,13 +22,13 @@ Foi adotada uma ferramenta que tivesse alguns requisitos:
 * Versionamento da documentação
 * Uma boa documentação do uso da ferramenta
 
-A ferramenta escolhida foi [Docussaurus](https://docusaurus.io/docs).
+A ferramenta escolhida foi [VuePress](https://vuepress.vuejs.org/).
 
-## Vantagens do Docusaurus
+## Vantagens do VuePress
 
 * Utiliza **Markdown**
 * Conversão do conteúdo Markdown para HTML estático
-* Construída em **React**
+* Construída em **VueJS**
 * Boa aceitação da comunidade
 * Pública conteúdo estático diretamente no GitHub Pages (não há custos de infraestrutura tecnológica)
 * Versionamento da documentação
