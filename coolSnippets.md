@@ -54,3 +54,14 @@ And a warning!
 ::: danger
 Something's wrong!
 :::
+
+<!-- CUSTOM -->
+```vue
+.
+└─ .vuepress
+   └─ components
+      ├─ demo-1.vue
+      ├─ OtherComponent.vue
+      └─ Foo
+         └─ Bar.vue
+```

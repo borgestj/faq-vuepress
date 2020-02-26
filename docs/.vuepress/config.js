@@ -51,6 +51,10 @@ module.exports = {
                 text: 'Helpdesk.vue',
                 link: '/section-dev/paginas.md#Helpdesk-vue'
               },
+              {
+                text: 'About.vue',
+                link: '/section-dev/paginas.md#About-vue'
+              },
             ]
           },
 

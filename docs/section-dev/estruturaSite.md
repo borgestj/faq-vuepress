@@ -7,17 +7,13 @@ sidebar: auto
 ## Estrutura do site
  
 ```
-web
-|
-|__ src
-    |
-    |___ elements
-    |
-    |___ lib
-    |
-    |___ pages
-    |
-    |___ store
+.
+└─ web
+    └─ src
+        ├─ elements
+        ├─ lib
+        ├─ pages
+        └─ store
 ```
 
 **Elements**  
@@ -25,20 +21,20 @@ Em elements estão os componentes que usamos em todo o site.
 Estes componentes possuem alguns padrões:  
 o componente deve ter o nome descritivo, ex: ```FooterLinks.vue```  
 sua estrura basica é:
-```
+```vue
 <template>
-    ... HTML do componente
+    <!-- HTML do componente -->
 </template>
 
 <script>
-    ... imports necessários
+    // imports necessários
 export default {
-	... Lógica 
+	// Lógica 
 }
 </script>
 
 <style lang="scss">
-    ... CSS do componente
+    /* CSS do componente */
 </style>
 
 ```
@@ -50,7 +46,7 @@ Pasta que contem nossos arquivos Javascripts com algumas lógicas do site bem co
 Nessa pasta como o próprio nome nos mostra está nossas páginas com a estrutura HTML e VueJS.  
 As páginas possuem uma estrutura igual a dos nossos componentes. O nome do arquivo por exemplo é na mesma linha dos componentes ```Home.vue```.  
 No caso do nosso **template** precisamos ter alguns cuidados, podemos usar o exemplo a seguir como um pequeno guia, claro, além da própria documentação.
-```
+```vue
 <template>
     <div class="page page-home" :class="{ behind: overflowActive }">
         <header>
@@ -73,8 +69,8 @@ export default {
 </script>
 
 <style lang="scss">
-// Lembrando que o nosso CSS pode ser escopado apenas 
-// na página usando a <style scoped lang="scss">
+/* Lembrando que o nosso CSS pode ser escopado apenas 
+na página usando a <style scoped lang="scss"> */
 .page-home {
     min-height: 100%;
     width: 100%;
