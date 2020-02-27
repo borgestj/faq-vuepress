@@ -89,7 +89,7 @@ Podemos encontrar as seguintes subpáginas:
 
 Página que conta um pouco da história da empresa. Aqui a maioria do código pode ser modificado.
 
-```vue
+```vue{4-13}
 <div class="u-content page-helpdesk-content">
     <h1 class="subtitle helpdesk-title">Sobre a Uatt?</h1   
     <div class="about-info">
