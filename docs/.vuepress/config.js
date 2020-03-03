@@ -32,6 +32,19 @@ module.exports = {
               {
                 text: 'Estrutura do Projeto',
                 link: '/section-dev/estruturaSite.md'
+              },
+              {
+                text: 'Webpack Homologação',
+                link: '/section-dev/configWebpackHomologacao.md'
+              }
+            ], 
+          },
+          {
+            text: 'Configurações',
+            items: [
+              {
+                text: 'Linux',
+                link: '/section-dev/linux.md'
               }
             ], 
           },
