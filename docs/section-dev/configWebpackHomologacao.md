@@ -2,9 +2,9 @@
 sidebar: auto
 ---
 
-# Arquivo Webpack Homologação
+# Homologação
 
-## Configurações arquivo Webpack
+## Configurações arquivo Webpack do projeto
 
 Para homologação o aquivo webpack precisa destas modificações para que possamos rodar ``` npm run build ```.
 
@@ -35,3 +35,7 @@ new PrerenderSPAPlugin({
 	})
 })
 ```
+
+## Testando os dados gerados
+
+Na pasta do projeto entrar na pasta ```/dist``` e rodar ```serve -s``` para testar localmente.

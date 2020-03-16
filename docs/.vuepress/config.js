@@ -34,7 +34,7 @@ module.exports = {
                 link: '/section-dev/estruturaSite.md'
               },
               {
-                text: 'Webpack Homologação',
+                text: 'Homologação',
                 link: '/section-dev/configWebpackHomologacao.md'
               }
             ], 
@@ -67,6 +67,10 @@ module.exports = {
               {
                 text: 'About.vue',
                 link: '/section-dev/paginas.md#About-vue'
+              },
+              {
+                text: 'Collection.vue',
+                link: '/section-dev/paginas.md#Collection-vue'
               },
             ]
           },

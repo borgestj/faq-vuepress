@@ -85,6 +85,7 @@ Podemos encontrar as seguintes subpáginas:
     ├─ SecureShopping.vue
     └─ Shipping.vue
 ```
+
 ## About.vue
 
 Página que conta um pouco da história da empresa. Aqui a maioria do código pode ser modificado.
@@ -109,3 +110,27 @@ Página que conta um pouco da história da empresa. Aqui a maioria do código po
 
 Aqui podemos alterar o ```<h1></h1>``` e as tags ```<p></p>```, caso precise de uma imagem nova ou diferente, podemos alterar o *src* da tag ```<img>```
 ou até criar uma nova para adicionar mais imagens.
+
+## Collection.vue
+
+Página que mostra os produtos de uma determinada categoria ou mesmo de todas. Possui filtros personalizados. Essa pagina possui alguns componentes filhos. São eles:  
+
+```
+.
+└─ elements
+    ├─ CollectionsFilter.vue
+    ├─ CollectionsIcons.vue
+    └─ CollectionsMenu.vue
+```
+
+Parte importante na grade dos produtos. Podemos ajustar a quantidade da grade pelo CSS.
+
+```scss
+// Ajuste na quantidade de produtos no grid de coleções
+.products-list.collection .products-list-content > ol > li {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 25%; // 20% = 5 produtos por linha, 25% = 4, 33% = 3 e 50% = 2.
+    padding: 10px 0;
+}
+```
