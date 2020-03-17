@@ -14,6 +14,20 @@ module.exports = {
         link: '/'
       },
       {
+        text: 'Documentação Admin',
+        items: [
+          {
+            text: 'Docuemntação Admin',
+            items: [
+              {
+                text: 'Alimentando o Glossário',
+                link: '/section-admin/initial.md'
+              }
+            ]
+          },
+        ]
+      },
+      {
         text: 'Documentação Dev',
         items: [
           {
